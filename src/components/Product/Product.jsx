@@ -15,8 +15,8 @@ function Product(prop) {
             <p className='product-description'>{prop.description}</p>
             <p className='product-stock'>Stock: {prop.stock}</p>
             <div className='product-buttons'>
-                <button className='btn add-to-cart'>Add to Cart</button>
-                <button className='btn buy-now'>Buy Now</button>
+                <button className='btn add-to-cart' onClick={() => alert(`Added ${prop.tittle} to cart`)}>Add to Cart</button>
+                <button className='btn buy-now' onClick={() => alert(`Bought ${prop.tittle}`)}>Buy Now</button>
             </div>
         </div>
     );
