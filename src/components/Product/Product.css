@@ -62,3 +62,15 @@
 .buy-now:hover {
   background-color: #1e7e34;
 }
+
+.out-of-stock {
+  color: white;
+  background-color: #e74c3c; /* red background */
+  padding: 10px 20px;
+  font-size: 1.2rem;
+  font-weight: bold;
+  text-align: center;
+  border-radius: 8px;
+  max-width: 200px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}

@@ -7,9 +7,9 @@ function App() {
     <>
 
       <div className='container'>  
-        <Product tittle='Product 1' description='This is Product 1' stock='10' />
-        <Product tittle='Product 2' description='This is Product 2' stock='10' />
-        <Product tittle='Product 3' description='This is Product 3' stock='111' />
+        <Product tittle='Product 1' description='This is Product 1' stock= {10} />
+        <Product tittle='Product 2' description='This is Product 2' stock= {15} />
+        <Product tittle='Product 3' description='This is Product 3' stock= {0} />
       </div>
     </>
   )
