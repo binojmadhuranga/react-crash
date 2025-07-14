@@ -1,7 +1,9 @@
 // import './App.css';
 import '../src/App.css';
 import Product from './components/Product/Product.jsx';
-import { BrowserRouter, Route } from 'react-router-dom';
+import { BrowserRouter, Route, Routes } from 'react-router-dom';
+import Home from './pages/Home/Home.jsx';
+import Dashboard from './pages/Dashboard/Dashboard.jsx';
 
 function App() {
   return (
@@ -14,10 +16,10 @@ function App() {
       </div> */}
 
       <BrowserRouter>
-        <Route>
-
-          
-        </Route>
+        <Routes>
+          <Route path="/" element={<Home />} />
+          <Route path="/dashboard" element={<Dashboard />} />
+        </Routes>
       </BrowserRouter>
 
 
