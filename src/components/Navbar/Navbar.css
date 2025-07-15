@@ -1,0 +1,43 @@
+/* General Navbar Styles */
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #222;
+  padding: 15px 30px;
+  color: white;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+/* Logo */
+.navbar-logo {
+  font-size: 1.8rem;
+  font-weight: bold;
+}
+
+/* Links */
+.navbar-links {
+  list-style: none;
+  display: flex;
+  gap: 25px;
+  margin: 0;
+  padding: 0;
+}
+
+.navbar-links li {
+  transition: transform 0.2s ease;
+}
+
+.navbar-links li:hover {
+  transform: scale(1.05);
+}
+
+.navbar-links a {
+  color: white;
+  text-decoration: none;
+  font-size: 1rem;
+}
+
+.navbar-links a:hover {
+  color: #66fcf1;
+}
